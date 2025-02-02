@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnHub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif; /* Modern font */
+      color: #f0f0f0; /* Lighter text color */
+      background-image: url("bg.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background-color: #1c1c1c; /* Dark background */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #f39c12; /* Warm accent color */
+      font-family: 'Poppins', sans-serif; /* Custom header font */
+    }
+
+    header a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      padding: 8px 15px;
+      border: 2px solid #fff;
+      border-radius: 8px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    header a:hover {
+      background-color: #f39c12;
+      color: #1c1c1c;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .hero {
+      background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+      padding: 50px 20px;
+      border-radius: 10px;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      font-family: 'Open Sans', sans-serif; /* Readable font */
+      line-height: 1.6;
+    }
+
+    .hero button {
+      background-color: #f39c12;
+      color: #fff;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .hero button:hover {
+      background-color: #e67e22;
+    }
+
+    .partners {
+      background-color: #333;
+      padding: 50px 20px;
+    }
+
+    .partners h2 {
+      font-size: 2rem;
+      color: #f39c12;
+      margin-bottom: 30px;
+    }
+
+    .partners .logos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .partners .logos img {
+      height: 60px;
+      transition: all 0.3s ease;
+    }
+
+    .partners .logos img:hover {
+      transform: scale(1.1);
+    }
+
+    .stats {
+      background-color: #1c1c1c;
+      padding: 50px 20px;
+    }
+
+    .stats h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      font-family: 'Poppins', sans-serif;
+      color: #f39c12;
+    }
+
+    .stats p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+    }
+
+    .stats .data {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 1.4rem;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .stats .data div {
+      padding: 15px 25px;
+      background-color: #444;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #1c1c1c;
+      text-align: center;
+      padding: 20px;
+      font-size: 1rem;
+      font-family: 'Open Sans', sans-serif;
+      color: #fff;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LearnHub</h1>
+    <a href="index.html">Admin</a>
+  </header>
+
+  <section class="hero">
+    <h2>Learn from the best, be your best..</h2>
+    <p>Give yourself an upgrade with our inspiring online courses and join a global community of learners</p>
+    <button>Get Started</button>
+  </section>
+
+  <section class="partners">
+    <h2>Our Placement Partners</h2>
+    <div class="logos">
+      <img src="C:\Users\meera\OneDrive\Pictures\Desktop\webion\assets\img\airbnb.png" alt="Airbnb">
+      <img src="C:\Users\meera\OneDrive\Pictures\Desktop\webion\assets\logo\client-8.png" alt="Grabyo">
+      <img src="C:\Users\meera\OneDrive\Pictures\Desktop\webion\assets\logo\Lifegroups.png" alt="LifeGroups">
+      <img src="C:\Users\meera\OneDrive\Pictures\Desktop\webion\assets\logo\myob.png" alt="MYOB">
+      <img src="C:\Users\meera\OneDrive\Pictures\Desktop\webion\assets\img\tailus.png" alt="Tailus">
+      <img src="C:\Users\meera\OneDrive\Pictures\Desktop\webion\assets\img\microsoft.png" alt="Microsoft">
+      <img src="C:\Users\meera\OneDrive\Pictures\Desktop\webion\assets\img\coty.png" alt="COTY">
+      <img src="C:\Users\meera\OneDrive\Pictures\Desktop\webion\assets\img\lilly.png" alt="Lilly">
+    </div>
+  </section>
+
+  <section class="stats">
+    <h2>Empower your future with cutting-edge skills</h2>
+    <p>Join our course with a proven track record of success, where learning isn’t just about gaining skills; it’s about growing them.</p>
+    <div class="data">
+      <div>Total Students: 0</div>
+      <div>Placed Students: 0</div>
+      <div>Unplaced Students: 0</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2022 LearnHub Inc. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function updateStatsPage() {
+        let totalStudents = localStorage.getItem("totalStudents") || 0;
+        let placedStudents = localStorage.getItem("placedStudents") || 0;
+        let unplacedStudents = localStorage.getItem("unplacedStudents") || 0;
+
+        document.querySelector(".stats .data div:nth-child(1)").innerText = `Total Students: ${totalStudents}`;
+        document.querySelector(".stats .data div:nth-child(2)").innerText = `Placed Students: ${placedStudents}`;
+        document.querySelector(".stats .data div:nth-child(3)").innerText = `Unplaced Students: ${unplacedStudents}`;
+    }
+
+    // Check if the stats need to be updated
+    if (localStorage.getItem("updateStats") === "true") {
+        updateStatsPage();
+        localStorage.removeItem("updateStats"); // Reset update flag
+    }
+
+    // Run on page load
+    window.onload = updateStatsPage;
+  </script>
+</body>
+</html>
+
